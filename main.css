@@ -63,9 +63,10 @@ line-height: 36px;
 
 .auth-form {
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 600px;
     border: 1px solid gray;
-    box-shadow: 2px 2px 5px 5px rgb(32, 50, 105, 0.2);
+    background-color: rgb(242, 242, 253);
+    box-shadow: 2px 2px 5px 5px rgba(32, 50, 105, 0.2);
     border-radius: 8px;
     padding: 40px;
     position: relative;
@@ -261,6 +262,10 @@ display: none;
     height: 25px;
     text-align: center;
     cursor: pointer;
+}
+
+.task-delete-btn:hover{
+    background-color: gray;
 }
 
 .timer-btn {
