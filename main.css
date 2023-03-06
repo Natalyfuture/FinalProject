@@ -207,7 +207,7 @@ display: none;
 }
 
 .task-form form {
-    width: 500px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
 }
@@ -299,6 +299,10 @@ display: none;
   @media (max-width: 768px) {
     .board {
       grid-template-columns: 1fr;
+    }
+
+    .container{
+        max-width: 720px;
     }
   }
 
