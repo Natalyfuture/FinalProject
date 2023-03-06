@@ -202,12 +202,9 @@ display: none;
     border-radius: 8px;
     padding: 25px;
     position: relative;
-    margin-top: 5px;
-
-}
+   }
 
 .task-form form {
-    max-width: 500px;
     display: flex;
     flex-direction: column;
 }
